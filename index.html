@@ -32,11 +32,22 @@
             </ul>
         </nav>
 
-        <button class="burger-btn">
+<!-- START Mobile menu -->
+        <button class="burger-btn" data-menu-open>
             <svg class="burger-icon">
                 <use href="./images/sprite.svg#icon-burger-icon"></use>
             </svg>
         </button>
+
+        <div class="mobile-menu" data-menu>
+            <button class="close-btn" data-menu-close>
+                <svg class="close-btn-icon">
+                    <use href="./images/sprite.svg#close-icon"></use>
+                </svg>
+            </button>
+        </div>
+<!-- END Mobile menu -->
+
             <ul class="list site-nav header-connect">
                 <li class="site-nav__item">
                     <a class="header-site__link link" href="info@devstudio.com">
@@ -526,5 +537,6 @@
         </div>
     </div> -->
 </body>
+<script src="./js/menu.js"></script>
 <script src="./js/modal.js"></script>
 </html>
