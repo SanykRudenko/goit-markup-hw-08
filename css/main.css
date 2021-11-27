@@ -349,7 +349,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .burger-btn {
@@ -619,7 +618,6 @@ img {
 }
 
 .nav-contacts-contact {
-  margin-left: auto;
   display: flex;
   text-decoration: none;
   color: var(--second-text-color);
