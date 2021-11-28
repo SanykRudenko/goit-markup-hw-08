@@ -1,5 +1,4 @@
 .header{
-    position: absolute;
     padding-top: 16px;
     padding-bottom: 16px;
     border-bottom: 1px solid #ECECEC;
@@ -10,7 +9,7 @@
     }
 
     @media screen and (min-width: 1200px) {
-        padding-top: 24px;
+        padding-top: 25px;
         padding-bottom: 25px;
     }
 }
@@ -275,16 +274,18 @@
 
     @media screen and (min-width: 1200px) {
         display: flex;
-        font-size: 14px;
-        line-height: 1.17;
+        align-items: center;
     }
 }
 
 .nav-contacts-item:not(:last-child){
-    margin-bottom: 10px;
+
+    @media screen and (max-width: 1199px){
+        margin-bottom: 10px;
+    }
 
     @media screen and (min-width: 1200px){
-        margin-right: 30px;
+        margin-right: 50px;
     }
 }
 

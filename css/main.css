@@ -326,7 +326,6 @@ img {
 }
 
 .header {
-  position: absolute;
   padding-top: 16px;
   padding-bottom: 16px;
   border-bottom: 1px solid #ECECEC;
@@ -341,7 +340,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .header {
-    padding-top: 24px;
+    padding-top: 25px;
     padding-bottom: 25px;
   }
 }
@@ -603,18 +602,19 @@ img {
 @media screen and (min-width: 1200px) {
   .nav-contacts {
     display: flex;
-    font-size: 14px;
-    line-height: 1.17;
+    align-items: center;
   }
 }
 
-.nav-contacts-item:not(:last-child) {
-  margin-bottom: 10px;
+@media screen and (max-width: 1199px) {
+  .nav-contacts-item:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .nav-contacts-item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 50px;
   }
 }
 
